@@ -1,0 +1,46 @@
+{
+  "name": "react-ssr-example",
+  "version": "1.0.0",
+  "description": "An example React app that integrates with react-ssr.",
+  "main": "index.js",
+  "scripts": {
+    "start": "",
+    "build": "",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oayres/react-ssr-examples.git"
+  },
+  "keywords": [
+    "react",
+    "server-side",
+    "rendering",
+    "ssr",
+    "react-ssr"
+  ],
+  "author": "Owen Ayres",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oayres/react-ssr-examples/issues"
+  },
+  "homepage": "https://github.com/oayres/react-ssr-examples#readme",
+  "dependencies": {
+    "http": "^0.0.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-helmet": "^5.2.0",
+    "react-router": "^4.2.0",
+    "react-router-config": "^1.0.0-beta.4",
+    "react-router-dom": "^4.2.2",
+    "react-ssr": "^0.4.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-add-react-displayname": "^0.0.5",
+    "babel-plugin-react-ssr": "^0.1.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "jest": "^22.4.2",
+    "webpack": "^4.0.0"
+  }
+}

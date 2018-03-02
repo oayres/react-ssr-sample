@@ -1,0 +1,13 @@
+{
+  "presets": [
+    [
+      "env", {
+        "modules": false
+      }
+    ]
+  ],
+  "plugins": [
+    "react-ssr",
+    "transform-class-properties"
+  ]
+}
